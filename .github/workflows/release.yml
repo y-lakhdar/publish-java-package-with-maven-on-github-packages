@@ -9,14 +9,39 @@ on:
       - master
 permissions:
   contents: write
-  pages: write
   id-token: write
+  packages: write
 
 concurrency:
-  group: 'pages'
+  group: 'packages'
   cancel-in-progress: true
 
 jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    environment: CD
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+      - run: git fetch --all --tags
+      - uses: actions/setup-node@v3
+        with:
+          registry-url: 'https://registry.npmjs.org'
+          cache: 'npm'
+          node-version-file: '.nvmrc'
+      - name: Install
+        run: npm ci
+      - name: Setup Git
+        run: |
+          git config --global user.email action@github.com
+          git config --global user.name GitHub Action
+      - name: Release
+        run: npm run release
+        env:
+          DEBUG: '*'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   publish:
     runs-on: ubuntu-latest
     permissions:
@@ -35,4 +60,4 @@ jobs:
       - name: Publish package
         run: mvn --batch-mode deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.JAVA_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
