@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/compare/v2.3.0...v2.4.0) (2023-06-06)
+
+
+### Features
+
+* blalba ([#20](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/20)) ([af6f8e6](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/af6f8e679ee13820e7c7ff494f4f660a50e3145d))
+
 ## [2.3.0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/compare/v2.2.0...v2.3.0) (2023-06-06)
 
 
