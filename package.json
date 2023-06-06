@@ -1,6 +1,6 @@
 {
   "name": "@y-lakhdar/publish-java-package-with-maven-on-github-packages",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Push API client",
   "type": "commonjs",
   "devDependencies": {
@@ -34,7 +34,7 @@
   },
   "standard-version": {
     "scripts": {
-      "posebump": "echo 9.9.9"
+      "postbump": "echo 9.9.9!!!!!"
     }
   },
   "repository": {
