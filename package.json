@@ -1,15 +1,10 @@
 {
   "name": "@y-lakhdar/publish-java-package-with-maven-on-github-packages",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "Push API client",
   "type": "commonjs",
   "devDependencies": {
-    "@coveo/semantic-monorepo-tools": "2.1.2",
-    "@octokit/auth-action": "2.0.3",
-    "conventional-changelog-angular": "5.0.13",
     "cz-conventional-changelog": "3.3.0",
-    "lint-staged": "13.2.2",
-    "octokit": "2.0.14",
     "standard-version": "9.5.0"
   },
   "husky": {
@@ -29,8 +24,7 @@
   },
   "scripts": {
     "commit": "git-cz",
-    "standard-version": "standard-version",
-    "bump-pom": "node bump-pom.js"
+    "standard-version": "standard-version"
   },
   "standard-version": {
     "scripts": {
