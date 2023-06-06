@@ -1,0 +1,20 @@
+name: Automated approval
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - labeled
+
+jobs:
+  auto-approve:
+    runs-on: ubuntu-latest
+    # if: (github.actor == 'Renovate Bot' || github.actor == 'coveobot') && contains(github.event.pull_request.labels.*.name,  'automerge-candidate')
+    if: (github.actor == 'github-actions') && contains(github.event.pull_request.labels.*.name,  'autorelease')
+    steps:
+    - name: auto-approve
+      id: auto-approve
+      uses: coveo/actions/auto-approve-action@main
+      with:
+        github-token: "${{ secrets.GITHUB_TOKEN }}"
