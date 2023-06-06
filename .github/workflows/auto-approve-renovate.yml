@@ -11,7 +11,7 @@ jobs:
   auto-approve:
     runs-on: ubuntu-latest
     # if: (github.actor == 'Renovate Bot' || github.actor == 'coveobot') && contains(github.event.pull_request.labels.*.name,  'automerge-candidate')
-    if: (github.actor == 'github-actions') && contains(github.event.pull_request.labels.*.name,  'autorelease')
+    if: (github.actor == 'y-lakhdar') && contains(github.event.pull_request.labels.*.name,  'autorelease')
     steps:
     - name: auto-approve
       id: auto-approve
