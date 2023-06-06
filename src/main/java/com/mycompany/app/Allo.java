@@ -9,12 +9,12 @@ public class Allo {
         System.out.println("Allo World!!");
     }
 
-    public void doTheThing() {
-        System.out.println("Something!!");
+    public void doTheThing(String a) {
+        System.out.println("Something!@!!" + a);
     }
 
     public void doTheThing2() {
-        System.out.println("Something!!");
+        System.out.println("Something!!!");
     }
 
 }
