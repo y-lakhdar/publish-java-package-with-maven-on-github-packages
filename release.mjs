@@ -35,8 +35,8 @@ async function pomBumpVersion(newVersion) {
   // const GIT_EMAIL = 'github-actions@github.com';
   // ---- TODO: remove ----
   const REPO_OWNER = 'y-lakhdar';
-  const GIT_USERNAME = 'y-lakhdar';
-  const GIT_EMAIL = 'y-lakhdar@coveo.com';
+  const GIT_USERNAME = 'ylakhdar';
+  const GIT_EMAIL = 'ylakhdar@coveo.com';
   // ---- TODO: remove end ----
   //#endregion
 
