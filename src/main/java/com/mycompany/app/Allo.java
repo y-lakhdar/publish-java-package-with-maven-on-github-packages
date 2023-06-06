@@ -10,7 +10,7 @@ public class Allo {
     }
 
     public void doTheThing() {
-        System.out.println("Something!");
+        System.out.println("Something!!");
     }
 
 }
