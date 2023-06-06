@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/compare/v2.2.0...v2.3.0) (2023-06-06)
+
+
+### Features
+
+* implement `run` method ([#17](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/17)) ([45e51d7](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/45e51d7bb235f899e4679db451d373765da5e33f))
+
 ## [2.2.0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/compare/v2.1.0...v2.2.0) (2023-06-06)
 
 
