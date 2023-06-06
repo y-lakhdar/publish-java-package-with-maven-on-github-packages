@@ -9,8 +9,8 @@ public class Allo {
         System.out.println("Allo World!!");
     }
 
-    public void doSomething() {
-        System.out.println("Something");
+    public void doTheThing() {
+        System.out.println("Something!");
     }
 
 }
