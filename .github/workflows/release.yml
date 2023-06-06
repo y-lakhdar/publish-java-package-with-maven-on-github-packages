@@ -1,19 +1,19 @@
 name: Create release
 
 on:
-  workflow_dispatch: { }
+  workflow_dispatch: {}
   push:
     branches:
       - master
 
 permissions:
   contents: write
-  packages: write
+  # packages: write
   pull-requests: write
 
-concurrency:
-  group: 'packages'
-  cancel-in-progress: true
+# concurrency:
+#   group: 'packages'
+#   cancel-in-progress: true
 
 jobs:
   # release-please:
@@ -60,19 +60,18 @@ jobs:
           distribution: 'adopt'
 
       - name: Build
-        run: mvn clean verify
+        run: mvn clean package
 
       - uses: google-github-actions/release-please-action@v3
         with:
-          release-type: maven
           package-name: release-please-action
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          default-branch: master
+          pull-request-title-pattern: 'chore${scope}: release${component} ${version}'
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # - name: Package
-      #   run: mvn clean package
+          # TODO: manually bump bersio
 
-      # - name: Deploy package
-      #   run: mvn --batch-mode deploy
+      # - run: mvn --batch-mode deploy
+      #   if: ${{ steps.release.outputs.release_created }}
       #   env:
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
