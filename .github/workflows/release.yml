@@ -12,6 +12,7 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    environment: CD
     steps:
       - uses: actions/checkout@v3
 
@@ -29,4 +30,5 @@ jobs:
           package-name: release-please-action
           default-branch: master
           pull-request-title-pattern: 'chore${scope}: release${component} ${version}'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RELEASE_KEY }}
+          # TODO: include jar files as well
