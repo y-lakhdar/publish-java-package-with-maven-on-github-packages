@@ -67,6 +67,8 @@ jobs:
         with:
           release-type: maven
           package-name: release-please-action
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # - name: Package
       #   run: mvn clean package
