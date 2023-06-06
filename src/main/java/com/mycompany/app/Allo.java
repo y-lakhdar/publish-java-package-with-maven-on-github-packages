@@ -13,4 +13,8 @@ public class Allo {
         System.out.println("Something!!");
     }
 
+    public void doTheThing2() {
+        System.out.println("Something!!");
+    }
+
 }
