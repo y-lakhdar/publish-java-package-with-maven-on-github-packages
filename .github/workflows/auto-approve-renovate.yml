@@ -8,10 +8,26 @@ on:
       - labeled
 
 jobs:
+  aa:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Actor
+      run: echo "The GitHub Actor is ${{ github.actor }}"
+
+    - name: Labels
+      run: echo "The GitHub Actor is ${{ github.event.pull_request.labels.*.name }}"
+
+    - name: join Labels
+      run: echo "The GitHub Actor is ${{ join(github.event.pull_request.labels.*.name) }}"
+
+    - name: contains join Labels
+      run: echo "The GitHub Actor is ${{ contains(join(github.event.pull_request.labels.*.name), 'autorelease')}}"
+
   auto-approve:
     runs-on: ubuntu-latest
     # if: (github.actor == 'Renovate Bot' || github.actor == 'coveobot') && contains(github.event.pull_request.labels.*.name,  'automerge-candidate')
-    if:  (github.actor == 'github-actions') && (contains(join(github.event.pull_request.labels.*.name),  'autorelease'))
+    if:  (github.actor == 'github-actions') && (contains(join(github.event.pull_request.labels.*.name), 'autorelease'))
     steps:
     - name: auto-approve
       id: auto-approve
