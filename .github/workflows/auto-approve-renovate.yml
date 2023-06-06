@@ -11,6 +11,7 @@ jobs:
   auto-approve:
     runs-on: ubuntu-latest
     if:  (github.actor == 'y-lakhdar') && (contains(join(github.event.pull_request.labels.*.name), 'autorelease'))
+    # TODO: should only auto merge autorelease: snpashot
     steps:
     - name: auto-approve
       id: auto-approve
