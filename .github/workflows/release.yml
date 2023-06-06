@@ -1,12 +1,10 @@
 name: Create release
+
 on:
-  workflow_run:
-    workflows:
-      - Build
-    types:
-      - completed
+  push:
     branches:
       - master
+
 permissions:
   contents: write
   packages: write
