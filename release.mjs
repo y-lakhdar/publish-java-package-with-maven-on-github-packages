@@ -17,10 +17,10 @@ import {
 import angularChangelogConvention from 'conventional-changelog-angular';
 import { Octokit } from 'octokit';
 import { createActionAuth } from '@octokit/auth-action';
-import { spawn } from 'child_process';
+import { spawn } from 'node:child_process';
 
 async function pomBumpVersion(newVersion) {
-  return await spawn('mvn', ['versions:set', `-DnewVersion=${newVersion}`, '-DgenerateBackupPoms=false']).stdout.trim();
+  return await spawn('mvn', ['versions:set', `-DnewVersion=${newVersion}`, '-DgenerateBackupPoms=false']);
 }
 
 // Get all commits since last release bump the root package.json version.

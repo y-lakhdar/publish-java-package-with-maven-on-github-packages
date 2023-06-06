@@ -37,11 +37,12 @@ jobs:
         run: |
           git config --global user.email action@github.com
           git config --global user.name GitHub Action
-      - name: Release
-        run: npm run release
-        env:
-          DEBUG: '*'
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Bump Version
+        run: npm run standard-version -- --no-verify
+          git config --global user.name GitHub Action
+      - name: Push changes
+        run: |
+          git push --follow-tags origin master
   deploy:
     needs: prepare
     runs-on: ubuntu-latest
