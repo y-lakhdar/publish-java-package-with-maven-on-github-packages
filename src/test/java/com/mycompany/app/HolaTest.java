@@ -8,11 +8,11 @@ import org.junit.Test;
  * Unit test for simple App.
  */
 public class HolaTest {
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue() {
-        assertTrue(true);
-    }
+  /**
+   * Rigorous Test :-)
+   */
+  @Test
+  public void shouldAnswerWithTrue() {
+    assertTrue(true);
+  }
 }
