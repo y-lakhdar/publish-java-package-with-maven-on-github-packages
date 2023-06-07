@@ -30,5 +30,6 @@ jobs:
           package-name: release-please-action
           default-branch: master
           pull-request-title-pattern: 'chore${scope}: release${component} ${version}'
+          # TODO: [skip-ci]
           token: ${{ secrets.RELEASE_KEY }}
           # TODO: include jar files as well
