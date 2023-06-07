@@ -3,8 +3,7 @@ package com.mycompany.app;
 import java.util.Random;
 
 /**
- * The FunnyJokes class represents a collection of funny jokes. It provides methods to tell random
- * jokes, tell jokes by index, and retrieve the total number of jokes.
+ * The FunnyJokes class represents a collection of funny jokes. It provides methods to tell random jokes, tell jokes by index, and retrieve the total number of jokes.
  */
 public class FunnyJokes {
   private static final String[] JOKES = {
