@@ -17,6 +17,9 @@ jobs:
         with:
           node-version: '14'
 
+      - name: Install
+        run: npm i
+
       - name: Run the save_token.js script
         run: node utils/get-token.mjs
 

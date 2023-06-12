@@ -16,4 +16,3 @@ import { exportVariable, setSecret } from '@actions/core';
 
 const secret = 'xcvdsatyuidskfa';
 setSecret(secret);
-exportVariable("RELEASE_TOKEN", secret)
