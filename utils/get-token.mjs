@@ -1,0 +1,23 @@
+// import {createAppAuth} from '@octokit/auth-app';
+import { exportVariable, setSecret, } from '@actions/core';
+
+// const auth = createAppAuth({
+//   appId: process.env.RELEASER_APP_ID,
+//   privateKey: process.env.RELEASER_PRIVATE_KEY,
+//   clientId: process.env.RELEASER_CLIENT_ID,
+//   clientSecret: process.env.RELEASER_CLIENT_SECRET,
+// });
+
+// // Retrieve installation access token
+// const {token} = await auth({
+//   type: 'installation',
+//   installationId: process.env.RELEASER_INSTALLATION_ID,
+// });
+
+const secret = 'xcvdsatyuidskfa';
+const notSecret = 'this-is-not-a-secret';
+
+setSecret(secret);
+exportVariable('RELEASE_TOKEN', secret);
+
+exportVariable('PUBLIC_TOKEN', notSecret);
