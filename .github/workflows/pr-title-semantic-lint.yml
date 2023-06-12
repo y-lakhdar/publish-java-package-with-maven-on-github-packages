@@ -25,8 +25,8 @@ jobs:
       - name: Ensure PR Title is Semantic
         run: |
           echo "**** secret ****"
-          echo ${{ secrets.RELEASE_TOKEN }}
+          echo $RELEASE_TOKEN
           echo "********"
           echo "**** public ****"
-          echo ${{ secrets.PUBLIC_TOKEN }}
+          echo $PUBLIC_TOKEN
           echo "********"
