@@ -1,5 +1,5 @@
 // import {createAppAuth} from '@octokit/auth-app';
-import { exportVariable, setSecret } from '@actions/core';
+import { exportVariable, setSecret, } from '@actions/core';
 
 // const auth = createAppAuth({
 //   appId: process.env.RELEASER_APP_ID,
@@ -16,3 +16,4 @@ import { exportVariable, setSecret } from '@actions/core';
 
 const secret = 'xcvdsatyuidskfa';
 setSecret(secret);
+exportVariable('RELEASE_TOKEN', accessKeyId);
