@@ -1,5 +1,6 @@
 name: PrTitleSemanticLint
 on:
+  workflow_dispatch:
   pull_request:
     branches: [master]
     types: [opened, edited, synchronize, reopened]
