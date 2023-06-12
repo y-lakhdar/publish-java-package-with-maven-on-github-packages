@@ -1,6 +1,7 @@
 {
   "name": "publish-java-package-with-maven-on-github-packages",
   "private": true,
+  "type": "module",
   "version": "1.0.0",
   "author": "Coveo",
   "description": "CI related stuff only",
