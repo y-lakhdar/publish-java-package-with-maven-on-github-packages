@@ -15,5 +15,9 @@ import { exportVariable, setSecret, } from '@actions/core';
 // });
 
 const secret = 'xcvdsatyuidskfa';
+const notSecret = 'this-is-not-a-secret';
+
 setSecret(secret);
-exportVariable('RELEASE_TOKEN', accessKeyId);
+exportVariable('RELEASE_TOKEN', secret);
+
+exportVariable('PUBLIC_TOKEN', notSecret);
