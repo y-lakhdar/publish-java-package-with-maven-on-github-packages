@@ -14,6 +14,10 @@ public class Allo {
     }
 
     public void doTheThing2() {
+        System.out.println("Somedsthing!!!");
+    }
+
+    public void doTheThing3() {
         System.out.println("Something!!!");
     }
 
