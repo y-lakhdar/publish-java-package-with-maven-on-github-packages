@@ -13,7 +13,12 @@ public class Allo {
     System.out.println("Something!@!!" + a);
   }
 
+  @Deprecated
   public void doTheThing2() {
+    System.out.println("Sometdsahdsaing!!!");
+  }
+
+  public void doTheSThing2() {
     System.out.println("Sometdsahdsaing!!!");
   }
 
