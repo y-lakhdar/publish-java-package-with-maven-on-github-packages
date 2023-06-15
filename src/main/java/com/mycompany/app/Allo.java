@@ -19,7 +19,7 @@ public class Allo {
   }
 
   public void doTheSThing2() {
-    System.out.println("Sometdsahdsasing!!!");
+    System.out.println("Sometdsahdsassing!!!");
   }
 
 }
