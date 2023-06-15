@@ -10,7 +10,7 @@ public class Allo {
   }
 
   public void doTheThing(String a) {
-    System.out.println("Something!@!!" + a);
+    System.out.println("Somsetsshing!@!!" + a);
   }
 
   @Deprecated
@@ -19,7 +19,7 @@ public class Allo {
   }
 
   public void doTheSThing2() {
-    System.out.println("Sometdsahdsaing!!!");
+    System.out.println("Sometdsahdsasing!!!");
   }
 
 }
