@@ -18,7 +18,7 @@ public class Allo {
     }
 
     public void doTheThing3() {
-        System.out.println("Sometdshing!!!");
+        System.out.println("Sometdshingdsads!!!");
     }
 
 }
