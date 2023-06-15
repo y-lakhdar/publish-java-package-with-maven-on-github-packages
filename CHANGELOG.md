@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.7.0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/compare/v2.6.0...v2.7.0) (2023-06-15)
+
+
+### Features
+
+* asaf ([#43](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/43)) ([776e2e0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/776e2e0a9c4858c6d3e3d3a2d4aad9f821bf12a7))
+
 ## [2.6.0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/compare/v2.5.0...v2.6.0) (2023-06-15)
 
 
