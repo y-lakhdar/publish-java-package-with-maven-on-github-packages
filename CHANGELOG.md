@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.10.0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/compare/v2.7.0...v2.10.0) (2023-06-16)
+
+
+### Features
+
+* do legal stuff now ([#45](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/45)) ([5d8b9b2](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/5d8b9b2538053880b548b6f5c4523a86330dd203))
+
+
+### Miscellaneous Chores
+
+* release 2.10.0 ([8c365b0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/8c365b00622e6f553e59bf4122ff07a07cb3a0c9))
+
 ## [2.7.0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/compare/v2.6.0...v2.7.0) (2023-06-15)
 
 
