@@ -13,4 +13,7 @@ public class Hola {
     public String run(String args) {
         return "Hosla : " + args;
     }
+    public String dsrun(String args) {
+        return "Hosla : " + args;
+    }
 }
