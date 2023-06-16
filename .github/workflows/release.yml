@@ -34,7 +34,7 @@ jobs:
           release-type: maven
           package-name: release-please-action
           default-branch: master
-          pull-request-title-pattern: 'chore${scope}: release${component} ${version} [skip ci]'
+          pull-request-title-pattern: 'chore${scope}: release${component} ${version} [skip-ci]'
           release-as: ${{inputs.version}}
           token: ${{ secrets.RELEASE_KEY }}
           # TODO: include jar files as well
