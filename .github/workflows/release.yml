@@ -31,5 +31,6 @@ jobs:
           package-name: release-please-action
           default-branch: master
           pull-request-title-pattern: 'chore${scope}: release${component} ${version}'
+          release-as: 2.22.0
           token: ${{ secrets.RELEASE_KEY }}
           # TODO: include jar files as well
