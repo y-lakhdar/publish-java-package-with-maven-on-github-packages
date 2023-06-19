@@ -30,6 +30,8 @@ jobs:
           release-type: maven
           package-name: release-please-action
           default-branch: master
+          release-as: 2.55.0
+          commit-search-depth: 1
           pull-request-title-pattern: 'chore${scope}: release${component} ${version} [skip-ci]'
           token: ${{ secrets.RELEASE_KEY }}
           # TODO: include jar files as well
