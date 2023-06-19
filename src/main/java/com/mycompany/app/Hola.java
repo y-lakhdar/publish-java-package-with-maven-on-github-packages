@@ -11,7 +11,7 @@ public class Hola {
     }
 
     public String run(String args) {
-        return "Hosla : " + args;
+        return "Hodssla : " + args;
     }
     public String dsrun(String args) {
         return "Hosla : " + args;
