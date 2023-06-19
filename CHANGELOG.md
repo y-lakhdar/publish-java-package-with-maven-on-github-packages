@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.55.0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/compare/v2.12.0...v2.55.0) (2023-06-19)
+
+
+### Features
+
+* a ([8a94fef](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/8a94fef13ea484f638848cf8e383b9a1ac06a397))
+* dsa ([#62](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/62)) ([6a5d70e](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/6a5d70ed79f0c8d41ab53e39cff5a4b1a6c29dfb))
+* dse s ([a2de896](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/a2de896b9ed0c28b3e6f51dc6d8c991c20e55b14))
+* finally able to reproduce ([#64](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/64)) ([b78ba35](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/b78ba35584701cfa5be03a172102efb76a3cca42))
+* old PR ([#65](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/65)) ([8b8947d](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/8b8947de641bd74f6a8ae00e40389dd3e0c8720a))
+
+
+### Bug Fixes
+
+* dsa ([071a13a](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/071a13a159a19442af2f430662b97209b0d81e83))
+
 ## [2.22.0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/compare/v2.14.0...v2.22.0) (2023-06-16)
 
 
