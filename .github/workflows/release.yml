@@ -31,7 +31,6 @@ jobs:
           package-name: release-please-action
           default-branch: master
           release-as: 2.55.0
-          bootstrap-sha: 9e7688aa03e39497de08fdd4068c3e1e2b27c319
           pull-request-title-pattern: 'chore${scope}: release${component} ${version} [skip-ci]'
           token: ${{ secrets.RELEASE_KEY }}
           # TODO: include jar files as well
