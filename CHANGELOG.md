@@ -2,6 +2,51 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.61.0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/compare/v2.55.0...v2.61.0) (2023-06-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* method was renamed
+
+### Features
+
+* a ([2686f52](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/2686f52aa67aca06d616b4eab63c28d4dd8c7910))
+* a ([8a94fef](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/8a94fef13ea484f638848cf8e383b9a1ac06a397))
+* add hola ([#52](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/52)) ([78da17a](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/78da17a9e45de3b1edfe90a2a342f9a3b10a3880))
+* add new method ([51ccd38](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/51ccd388fac11971f27487442f2f65480494c98a))
+* add new method ([51ccd38](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/51ccd388fac11971f27487442f2f65480494c98a))
+* add new method ([8e366ab](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/8e366ab8eb4cc1fc57284f99fb61f29cb51fb105))
+* add something cool ([#14](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/14)) ([0dc78fd](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/0dc78fdc4416b35a7e192e92d0b5c9cff9c2a0a7))
+* asaf ([#43](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/43)) ([776e2e0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/776e2e0a9c4858c6d3e3d3a2d4aad9f821bf12a7))
+* bla ([#23](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/23)) ([4c7c050](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/4c7c050ea863501be1a810e5ef1e3bcc7add9a92))
+* blalba ([#20](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/20)) ([af6f8e6](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/af6f8e679ee13820e7c7ff494f4f660a50e3145d))
+* do legal stuff now ([#45](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/45)) ([5d8b9b2](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/5d8b9b2538053880b548b6f5c4523a86330dd203))
+* dsa ([9df022d](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/9df022d586268fcc1f3b50db78311c6b56301d48))
+* dsa  ([#40](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/40)) ([50b729c](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/50b729c42a9db42b9abaeb51c638365422634d49))
+* dsa ([#62](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/62)) ([6a5d70e](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/6a5d70ed79f0c8d41ab53e39cff5a4b1a6c29dfb))
+* dsad ([77889f8](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/77889f841a35525445aa44e9ab063618f55380ad))
+* dse s ([a2de896](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/a2de896b9ed0c28b3e6f51dc6d8c991c20e55b14))
+* finally able to reproduce ([#64](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/64)) ([b78ba35](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/b78ba35584701cfa5be03a172102efb76a3cca42))
+* implement `run` method ([#17](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/17)) ([45e51d7](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/45e51d7bb235f899e4679db451d373765da5e33f))
+* new method ([#12](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/12)) ([5061c4b](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/5061c4b41a76cfd2e1061fe6327d7f2d0eeaef3f))
+* new method ([#54](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/54)) ([4f813f4](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/4f813f439ad3b8d5676a097ca32fccf811416997))
+* new method ([#8](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/8)) ([66ec99c](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/66ec99cef0c1eeae0d36a77b6e4b2a2e6ad975c7))
+* old PR ([#65](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/65)) ([8b8947d](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/8b8947de641bd74f6a8ae00e40389dd3e0c8720a))
+* renamed method ([#3](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/issues/3)) ([218f102](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/218f1023f4fc81cadc6770f4387ab5b149d733ff))
+
+
+### Bug Fixes
+
+* dsa ([071a13a](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/071a13a159a19442af2f430662b97209b0d81e83))
+* dsads ([7380ee8](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/7380ee84b761f364ad26806893d73ed368580fd2))
+* dsads ([01f4349](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/01f434965b3548ce82e6a455e616917ba19d6be4))
+
+
+### Miscellaneous Chores
+
+* release 2.10.0 ([8c365b0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/commit/8c365b00622e6f553e59bf4122ff07a07cb3a0c9))
+
 ## [2.55.0](https://github.com/y-lakhdar/publish-java-package-with-maven-on-github-packages/compare/v2.12.0...v2.55.0) (2023-06-19)
 
 
